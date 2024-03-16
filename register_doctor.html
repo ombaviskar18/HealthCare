@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Doctor | Health Wallet</title>
+    <style>
+        body {
+             font-family: Arial, sans-serif;
+            background-color: lightblue;/* Light blue theme */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            height: 550px;
+            width: 600px;
+            margin: 0 auto;
+            .btn {
+            background-color: #4CAF50; /* green button */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            width: 100%;
+            font-size: 16px;
+        }
+        h1 {
+            color: #0066cc; /* Dark blue for headers */
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            background-color: #4CAF50; /* Green for submit button */
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Welcome Doctor to Health Wallet</h1>
+            <form action="#" method="POST">
+    
+                <input type="text" id="doctor_id" name="doctor_id" required placeholder="Doctor ID"><br>
+    
+                <input type="text" id="name" name="name" required  placeholder="Name:"><br>
+                
+                <input type="password" id="password" name="password" required placeholder="Password:"><br>
+                
+                <input type="text" id="metamask_id" name="metamask_id" required placeholder="MetaMask ID:"><br><br>
+            </form>
+            <button class="btn"onclick="location.href='doctor_login.html'">Connect Metamask Wallet</button> 
+            <button class="btn"onclick="location.href='doctor_login.html'">Register</button> 
+            <button class="btn"onclick="location.href='doctor_login.html'">Login</button> 
+        </div>
+    </div>
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- contact js -->
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/contact.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+</html>

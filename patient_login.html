@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightblue;
+
+        }
+        .container {
+            width: 300px;
+            margin: 0 auto;
+            padding: 180px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        h1 {
+            color: #0066cc; /* Dark blue for headers */
+        }
+        .btn {
+            background-color: #4CAF50; /* green button */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            width: 100%;
+            font-size: 16px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome Patient to Health Wallet</h1>
+        <h2>Patient Login</h2>
+        <div class="input-group">
+            <input type="text" id="doctor_id" placeholder="Username">
+        </div>
+        <div class="input-group">
+            <input type="password" id="password" placeholder="Password">
+        </div>
+        <div align="center">
+        <button class="btn" onclick="login()">Login</button>
+        <span style="margin: 0 10px;"></span>
+        <button class="btn" onclick="register()">Register</button>
+        </div>
+    </div>
+
+    <script>
+        function login() {
+            // Fetching doctor ID and password from input fields
+            var doctorId = document.getElementById('Username').value;
+            var password = document.getElementById('password').value;
+
+            // Perform login validation here
+            // This is a placeholder for actual login validation logic
+
+            // For demonstration purpose, simply displaying the doctor ID
+            alert("Logged in as Username : " + username);
+        }
+
+        function register() {
+            // Redirect to registration page
+            window.location.href = "register_patient.html";
+        }
+    </script>
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- contact js -->
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/contact.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+</html>
