@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <style>
+        /* Styling for the header */
+
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Add your additional CSS styles here */
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 300px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        /* Add your additional CSS styles here */
+
+        /* Add your additional CSS styles here */
+        .payment-form {
+            margin-top: 20px;
+        }
+
+        .card {
+            margin: 0 auto;
+            margin-top: 150px;
+            background-color: #f0f0f0;
+            padding: 100px;
+            border-radius: 10px;
+            width: 600px;
+            height: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .payment-form input[type="text"],
+        .payment-form input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .payment-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .payment-form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+
+    <!-- Required meta tags -->
+
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- themify CSS -->
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <!-- magnific popup CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- nice select CSS -->
+    <link rel="stylesheet" href="css/nice-select.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fileSharing.css">
+
+
+</head>
+
+<body>
+    <header class="main_menu home_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo"> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item justify-content-center"
+                            id="navbarSupportedContent">
+                            <ul class="navbar-nav align-items-center">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="upload.html">Upload</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="payment.html">Payment</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <details class="dropdown" id="accountDropdown">
+  <summary class="btn_2">Account</summary>
+  <div class="dropdown-content">
+    <p>Username</p>
+    <a href="wlcm.html">Logout</a>
+  </div>
+</details>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Add your payment content here -->
+        <div class="card">
+            <div class="payment-form">
+                <div align="center"><img src="img/service.png " style="width: 50%"></div> <br>
+                <input type="text" id="receiverId" placeholder="Receiver's ID">
+                <input type="text" id="metamaskId" placeholder="MetaMask ID">
+                <input type="number" id="amount" placeholder="Amount to Pay">
+                <button id="payBtn">Pay</button>
+            </div>
+        </div>
+    </div>
+    <!-- jquery plugins here-->
+
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- contact js -->
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <script src="js/contact.js"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+    <!-- Add your additional HTML content here -->
+</body>
+
+</html>
